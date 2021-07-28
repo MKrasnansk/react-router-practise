@@ -35,5 +35,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "```\r npm i\r npm start\r ```",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKrasnansk/react-router-parctise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKrasnansk/react-router-parctise/issues"
+  },
+  "homepage": "https://github.com/MKrasnansk/react-router-parctise#readme"
 }
