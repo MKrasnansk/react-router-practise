@@ -1,27 +1,27 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import classes from './MainNavigation.module.css'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./MainNavigation.module.css";
 
 const MainNavigation = () => {
-  return (
-    <header className={classes.header}>
-      <div className={classes.logo}>Great Quotes</div>
-      <nav className={classes.nav}>
-        <ul>
-          <li>
-            <NavLink to="/quotes" activeClassName={classes.active}>
-              All quotes
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/new-quote" activeClassName={classes.active}>
-              Add a QUOTE
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  )
-}
+	return (
+		<header className={"header"}>
+			<div className={"logo"}>Great Quotes</div>
+			<nav className={"nav"}>
+				<ul>
+					<li>
+						<NavLink to="/quotes" activeClassName={"active"}>
+							All quotes
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="/new-quote" activeClassName={"active"}>
+							Add a QUOTE
+						</NavLink>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	);
+};
 
-export default MainNavigation
+export default MainNavigation;
